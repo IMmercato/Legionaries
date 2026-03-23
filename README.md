@@ -1,127 +1,111 @@
 # ⚔️ Legionaries
 
 > **Conquer the world with your projects.**
-> Build creations inspired by ancient engineering, architecture, and Roman innovation — earn Gladiators, and expand your territory on a shared conquest map.
+> Build things inspired by engineering, architecture, and Roman innovation. Earn Gladiators to seize territory on a shipd global map.
 
 ---
 
-## What is Legionaries?
+## What are Legionaries?
 
-Legionaries is a [You Ship, We Ship](https://youshipped.hackclub.com) program where **your project becomes an army**.
+**Legionaries** is a program where your projects serve as your army. 
 
-Every time you build and ship something rooted in ancient problem-solving — a mechanism, a structure, a cipher, a tool — you earn **Gladiators**: units that march onto a living, shared conquest map and claim territory for you.
+Every time you build and ship something that utilizes classical problem-solving—whether it’s a machine, a structure, a cryptographic tool, or an architectural marvel—you earn **Gladiators**. 
 
-The map grows. Territories shift. Alliances form. Monuments rise.
-
----
-
-## 🏛️ How It Works
-
-1. **Build** — Ship a project inspired by ancient engineering, architecture, cryptography, mechanisms, or Roman innovation.
-2. **Submit** — Open a PR to this repo with a short description of what you built and how it connects to antiquity.
-3. **Earn Gladiators** — Based on scope and depth, you'll receive between **1 and 5 Gladiators**.
-4. **Conquer** — Your Gladiators are placed on the shared map, claiming territory in your name.
-5. **Watch the Empire Grow** — The map updates live. Territories expand, clash, and merge.
+These Gladiators march onto a living map to claim territory for you. As the summer progresses, the map expands, lands change hands, and massive monuments rise as participants collaborate and compete.
 
 ---
 
-## 🗺️ The Conquest Map
+## How It Works
 
-The map is a stylized ancient-world projection — think the *Tabula Peutingeriana* meets a modern conquest game.
-
-Each participant controls a color. Your Gladiators push your borders outward. Larger, more impressive projects earn more units and unlock special **Monuments** — visible landmarks on the map that mark exceptional work.
-
-> The map is public and updates every time a new submission is approved.
-
----
-
-## ⚙️ What Counts as a Valid Project?
-
-Your project must be **rooted in ancient problem-solving**. This is broad on purpose. Examples include:
-
-| Category | Example Projects |
-|---|---|
-| **Mechanisms** | A working model of a Roman ballista, trebuchet simulator, Antikythera mechanism replica |
-| **Architecture** | Arch stress visualizer, aqueduct flow calculator, Roman vault generator |
-| **Cryptography** | Caesar cipher tool, scytale encoder, Polybius square implementation |
-| **Tools & Engineering** | Roman surveying tool (groma), catapult trajectory calculator, sundial app |
-| **Urban Planning** | Roman city grid generator, *castrum* layout tool, road network optimizer |
-| **Agriculture & Water** | Irrigation system modeler, water wheel simulator, amphora volume calculator |
-| **Art & Culture** | Mosaic generator, Latin inscription typesetter, column order identifier |
-
-If you're unsure whether your idea qualifies — ask in the thread. If a Roman engineer would recognize the problem you're solving, you're probably good.
+1.  **Build Something**: Create a project rooted in engineering, architecture, cryptography, or Roman-inspired mechanics.
+2.  **Ship Your Work**: Submit a description of your project to the group, explaining the "ancient" logic behind your modern build.
+3.  **Earn Gladiators**: Receive between **1 and 5 Gladiators** based on the scale, complexity, and documentation of your project.
+4.  **Conquer Territory**: Your Gladiators are deployed to the map to claim land in your name.
+5.  **Expand Your Empire**: Watch the map update in real-time as territories merge, shift, and evolve.
 
 ---
 
-## 🏆 Prizes
+## The Map 🗺️
 
-Prizes are **ancient-engineering themed** — functional, tactile, and worth displaying.
+The map is a modern reimagining of the **Tabula Peutingeriana**. 
 
-| Gladiators Earned | Reward |
-|---|---|
-| 1–2 | Legionaries sticker pack |
-| 3–4 | Roman-themed mechanical pencil set + wax seal stamp kit |
-| 5–9 | Brass compass + engineering notebook + sticker pack |
-| 10–19 | **Architect's Tier** — drafting set, leather notebook, Legionaries poster |
-| 20+ | **Emperor's Tier** — custom mechanical keyboard keycap set (Roman numerals) + full prize bundle + your name on the map permanently |
-
-*Special prizes for the largest territory holder at the end of the program, the most creative project, and the first to earn a Monument.*
+* **Custom Colors**: Every builder is assigned a unique color.
+* **Territorial Growth**: The more Gladiators you earn, the larger your empire grows.
+* **Great Wonders**: Exceptional projects earn "Special Buildings"—permanent landmarks that remain on the map even if the surrounding land changes hands.
+* **Public Access**: The map is live and updates every time a new project is approved.
 
 ---
 
-## 🗿 Monuments
+## What is a "Good Project"?
 
-Monuments are special map markers unlocked by standout projects. They're permanent — even when territories shift, Monuments stay.
+Your project must solve a problem using principles an ancient engineer would recognize. If a Roman architect could understand the challenge you’re solving, you’re on the right track.
 
-To earn a Monument, your project must:
-- Score **5 Gladiators** in a single submission, AND
-- Be recognized as exceptional by the review committee
+### Project Categories
 
-Current monument types: **Colosseum**, **Pantheon**, **Aqueduct**, **Forum**, **Lighthouse**
-
----
-
-## ❓ FAQ
-
-**Q: Do I need to know Latin or history?**
-No. You need curiosity and a willingness to connect modern tech to old problems. A Roman aqueduct is just a gravity-fed pipeline — build your version.
-
-**Q: Can I work in a team?**
-Yes! Teams of up to 3. Gladiators are split equally between team members (rounded down), so a team of 3 earning 5 Gladiators gets 1 each + 2 bonus to the territory pool.
-
-**Q: What tech stack can I use?**
-Anything. Hardware, software, web, embedded, physical. The project must be built, functional, and documented — not just a design or concept.
-
-**Q: How long do I have?**
-The program runs through summer 2026. You can submit multiple projects.
-
-**Q: How are Gladiators scored?**
-Reviewers evaluate: **functionality** (does it work?), **depth** (did you go beyond surface-level?), **connection to antiquity** (is the ancient inspiration clear and meaningful?), and **documentation** (can someone understand and build on it?).
-
-**Q: What if two territories collide?**
-The larger army wins. Tie goes to whoever submitted first. Losers don't lose gladiators — just the contested tile.
-
-**Q: Is there a submission limit?**
-No hard limit. Quality over quantity — reviewers will notice if you're farming shallow submissions.
+| Category | Examples |
+| :--- | :--- |
+| **Machines** | Working catapult models, ballista simulators, or recreations of Vitruvian machines. |
+| **Structures** | Stress-test tools for arches, hydraulic flow calculators, or procedural villa generators. |
+| **Cryptography** | Caesar cipher automation, Scytale encoders, or frequency analysis tools. |
+| **Tools & Metrics** | Groma-inspired leveling tools, sundial simulators, or distance odometers. |
+| **Urban Planning** | Roman grid generators, castrum (military camp) planners, or road network optimizers. |
+| **Hydraulics** | Irrigation models, Archimedes' screw simulators, or cistern capacity calculators. |
+| **Art & Design** | Mosaic generators, epigraphy tools, or classical column order identifiers. |
 
 ---
 
-## 📜 Submitting
+## Prizes 🏆
 
-Open a pull request to this repo. Your PR description must include:
+Prizes are inspired by the tools of the trade—tactile, high-quality gear worth showing off.
 
-- **Project name**
-- **What it does** (2–3 sentences)
-- **The ancient connection** (what problem or technique from antiquity inspired this?)
-- **Link to repo / demo**
-- **Screenshots or video**
+| Gladiators | Reward |
+| :--- | :--- |
+| **1–2** | Official Legionaries Sticker Pack |
+| **3–4** | Roman-themed pencil set and wax seal/stamp kit |
+| **5–9** | Precision compass, technical notebook, and stickers |
+| **10–19** | **The Architect’s Prize**: Professional drafting set, leather-bound journal, and limited edition poster |
+| **20+** | **The Emperor’s Prize**: Custom mechanical keyboard with Roman numeral keycaps, all previous prizes, and your name etched permanently onto the map |
 
-PRs are reviewed within 72 hours. You'll receive a Gladiator count in the PR review and your map will update in the next sync.
+*Special awards will be granted for the largest empire, the most creative build, and the first "Great Wonder" constructed.*
 
 ---
 
-## 🛡️ Built with
+## Special Buildings 🏛️
 
-Legionaries is a [Hack Club](https://hackclub.com) YSWS program for Summer 2026.
+Buildings are prestigious markers that signify "exceptional" status. To earn a building (such as the **Colosseum, Pantheon, Aqueduct, Forum, or Lighthouse**), your project must:
+1. Earn a perfect **5-Gladiator** score.
+2. Be hand-selected by the review team for outstanding execution.
 
-*SPQR — Senatus Populusque Romanus. Build like they did.*
+---
+
+## FAQ
+
+**Q: Do I need to know Latin or History?** No. You just need a curiosity for how things work. An ancient Roman water system is just a pipe using gravity—modernize that concept!
+
+**Q: Can I work with friends?** Yes! Teams of up to 3 are allowed. Gladiators are split among members, though the total land impact remains the same.
+
+**Q: What tools can I use?** Anything. Code, hardware, wood, 3D printing, or paper. However, it must be a **functional project**, not just a design or an idea.
+
+**Q: How long do I have?** The campaign runs through the end of **Summer 2026**.
+
+**Q: How are projects judged?** Reviewers look for four things: **Functionality** (Does it work?), **Depth** (How complex is it?), **Connection** (Is the Roman link clear?), and **Documentation** (How well is it explained?).
+
+---
+
+## How to Submit
+
+Post your submission to the group with the following format:
+
+* **Project Name**
+* **Function**: (2–3 sentences on what it does)
+* **Inspiration**: (Which ancient idea or problem inspired this?)
+* **Link**: (Demo, GitHub, or Video)
+* **Visuals**: (Photos or video of the project in action)
+
+*Submissions are reviewed within 72 hours.*
+
+---
+
+**SPQR.** *The Senate and People of Rome. Build for eternity.*
+
+---
