@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legionaries — Conquer the World With Your Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="border-frame"></div>
+
+    <!-- NAV -->
+    <nav>
+        <a href="#" class="nav-logo">⚔ Legionaries</a>
+        <ul class="nav-links">
+            <li><a href="#how">How It Works</a></li>
+            <li><a href="#map">The Map</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#prizes">Prizes</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="https://hackclub.com" target="_blank">Hack Club</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero">
+        <div class="hero-map"></div>
+
+        <p class="hero-eyebrow">✦ A Hack Club YSWS Program · Summer 2026 ✦</p>
+
+        <h1 class="hero-title">
+            Legionar<span>ies</span>
+        </h1>
+
+        <div class="hero-divider">
+            <div class="hero-divider-line"></div>
+            <span class="hero-divider-icon">⚔</span>
+            <div class="hero-divider-line"></div>
+        </div>
+
+        <p class="hero-subtitle">
+            Conquer the world with your projects. Build creations rooted in ancient engineering — earn Gladiators and
+            expand your territory on a shared conquest map.
+        </p>
+
+        <div class="hero-cta-group">
+            <a href="https://github.com/hackclub/legionaries" class="btn-primary">Start Building</a>
+            <a href="#how" class="btn-secondary">Learn More</a>
+        </div>
+
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </div>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-it-works" id="how">
+        <p class="section-label">The Way of the Legion</p>
+        <h2 class="section-title">How Legionaries Works</h2>
+        <p style="color: var(--ash); max-width: 560px; font-size: 1rem; margin-top: 8px;">
+            Ancient Rome built its empire one province at a time. You'll build yours one project at a time.
+        </p>
+
+        <div class="steps-grid">
+            <div class="step">
+                <div class="step-number">I</div>
+                <div class="step-icon">⚙️</div>
+                <p class="step-title">Build</p>
+                <p class="step-desc">Ship a project rooted in ancient problem-solving — mechanisms, structures, ciphers,
+                    tools, aqueducts, anything a Roman engineer would recognize.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">II</div>
+                <div class="step-icon">📜</div>
+                <p class="step-title">Submit</p>
+                <p class="step-desc">Open a pull request with your project description, ancient connection, repo link,
+                    and screenshots. Reviewed within 72 hours.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">III</div>
+                <div class="step-icon">⚔️</div>
+                <p class="step-title">Earn Gladiators</p>
+                <p class="step-desc">Based on scope and depth, earn 1–5 Gladiators per submission. More ambitious
+                    projects earn more units.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">IV</div>
+                <div class="step-icon">🗺️</div>
+                <p class="step-title">Conquer</p>
+                <p class="step-desc">Your Gladiators march onto the shared conquest map and claim territory in your
+                    name. The largest empire wins eternal glory.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">V</div>
+                <div class="step-icon">🏛️</div>
+                <p class="step-title">Raise Monuments</p>
+                <p class="step-desc">Exceptional projects unlock permanent landmarks on the map — Colosseums, Pantheons,
+                    Aqueducts — visible long after the campaign ends.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAP PREVIEW -->
+    <section class="map-section" id="map">
+        <p class="section-label">Tabula Imperii</p>
+        <h2 class="section-title">The Conquest Map</h2>
+        <p style="color: var(--ash); max-width: 560px; font-size: 1rem; margin-top: 8px; margin: 8px auto 0;">
+            A living map of the campaign. Every submission shifts the borders. Inspired by the Tabula Peutingeriana —
+            the Roman road map of the known world.
+        </p>
+
+        <div class="map-container">
+            <svg class="map-svg" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice">
+                <!-- Background -->
+                <rect width="1200" height="500" fill="#1A1510" />
+
+                <!-- Grid -->
+                <g stroke="rgba(201,149,42,0.06)" stroke-width="0.5">
+                    <line x1="0" y1="100" x2="1200" y2="100" />
+                    <line x1="0" y1="200" x2="1200" y2="200" />
+                    <line x1="0" y1="300" x2="1200" y2="300" />
+                    <line x1="0" y1="400" x2="1200" y2="400" />
+                    <line x1="150" y1="0" x2="150" y2="500" />
+                    <line x1="300" y1="0" x2="300" y2="500" />
+                    <line x1="450" y1="0" x2="450" y2="500" />
+                    <line x1="600" y1="0" x2="600" y2="500" />
+                    <line x1="750" y1="0" x2="750" y2="500" />
+                    <line x1="900" y1="0" x2="900" y2="500" />
+                    <line x1="1050" y1="0" x2="1050" y2="500" />
+                </g>
+
+                <!-- Territories (hexagonal-ish zones) -->
+                <!-- Player 1 - Crimson -->
+                <polygon points="180,140 260,120 320,160 310,230 240,255 170,210" fill="rgba(139,26,26,0.35)"
+                    stroke="rgba(139,26,26,0.7)" stroke-width="1" />
+                <polygon points="260,120 350,100 410,145 390,210 320,235 240,195" fill="rgba(139,26,26,0.25)"
+                    stroke="rgba(139,26,26,0.5)" stroke-width="0.8" />
+
+                <!-- Player 2 - Gold/Amber -->
+                <polygon points="520,130 610,110 680,155 665,225 590,250 510,200" fill="rgba(201,149,42,0.3)"
+                    stroke="rgba(201,149,42,0.7)" stroke-width="1" />
+                <polygon points="610,110 700,95 760,140 745,210 670,235 595,185" fill="rgba(201,149,42,0.2)"
+                    stroke="rgba(201,149,42,0.5)" stroke-width="0.8" />
+                <polygon points="700,95 790,80 845,130 835,200 755,225 680,175" fill="rgba(201,149,42,0.15)"
+                    stroke="rgba(201,149,42,0.4)" stroke-width="0.6" />
+
+                <!-- Player 3 - Teal/Verdigris -->
+                <polygon points="850,200 930,180 990,220 975,295 905,315 838,270" fill="rgba(42,149,140,0.3)"
+                    stroke="rgba(42,149,140,0.7)" stroke-width="1" />
+                <polygon points="930,180 1010,165 1065,205 1055,280 985,300 915,255" fill="rgba(42,149,140,0.2)"
+                    stroke="rgba(42,149,140,0.5)" stroke-width="0.8" />
+
+                <!-- Player 4 - Purple -->
+                <polygon points="300,320 385,300 445,340 430,415 360,435 290,390" fill="rgba(120,42,149,0.3)"
+                    stroke="rgba(120,42,149,0.7)" stroke-width="1" />
+
+                <!-- Player 5 - Stone/Grey -->
+                <polygon points="680,330 760,310 820,355 805,425 735,445 665,400" fill="rgba(130,120,100,0.3)"
+                    stroke="rgba(130,120,100,0.6)" stroke-width="1" />
+
+                <!-- Roads (dotted) -->
+                <path d="M255 185 Q390 175 535 175" stroke="rgba(201,149,42,0.3)" stroke-width="1"
+                    stroke-dasharray="5 5" fill="none" />
+                <path d="M640 175 Q740 165 870 235" stroke="rgba(201,149,42,0.3)" stroke-width="1"
+                    stroke-dasharray="5 5" fill="none" />
+                <path d="M375 390 Q530 380 690 380" stroke="rgba(201,149,42,0.2)" stroke-width="1"
+                    stroke-dasharray="5 5" fill="none" />
+
+                <!-- City dots -->
+                <circle cx="255" cy="185" r="5" fill="#8B1A1A">
+                    <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite" />
+                </circle>
+                <circle cx="535" cy="175" r="5" fill="#C9952A">
+                    <animate attributeName="r" values="5;7;5" dur="2.5s" begin="0.5s" repeatCount="indefinite" />
+                </circle>
+                <circle cx="870" cy="235" r="5" fill="#2A958C">
+                    <animate attributeName="r" values="5;7;5" dur="3.5s" begin="1s" repeatCount="indefinite" />
+                </circle>
+                <circle cx="375" cy="390" r="4" fill="#7828A0" />
+                <circle cx="740" cy="385" r="4" fill="#827870" />
+                <circle cx="1010" cy="220" r="4" fill="#2A958C" />
+                <circle cx="410" cy="160" r="4" fill="#8B1A1A" />
+
+                <!-- Monument markers -->
+                <text x="248" y="175" text-anchor="middle" font-size="14" opacity="0.9">🏟</text>
+                <text x="528" y="165" text-anchor="middle" font-size="14" opacity="0.9">🏛</text>
+                <text x="863" y="225" text-anchor="middle" font-size="12" opacity="0.9">🗿</text>
+
+                <!-- Territory labels -->
+                <text x="248" y="198" text-anchor="middle" font-family="serif" font-size="8" fill="rgba(139,26,26,0.8)"
+                    letter-spacing="1">RUFUS</text>
+                <text x="630" y="185" text-anchor="middle" font-family="serif" font-size="8" fill="rgba(201,149,42,0.9)"
+                    letter-spacing="1">AURUM</text>
+                <text x="940" y="250" text-anchor="middle" font-family="serif" font-size="8" fill="rgba(42,149,140,0.9)"
+                    letter-spacing="1">TEAL</text>
+                <text x="365" y="370" text-anchor="middle" font-family="serif" font-size="8" fill="rgba(120,42,149,0.8)"
+                    letter-spacing="1">VIO</text>
+                <text x="735" y="400" text-anchor="middle" font-family="serif" font-size="8"
+                    fill="rgba(130,120,100,0.8)" letter-spacing="1">GRIS</text>
+
+                <!-- Map border -->
+                <rect x="1" y="1" width="1198" height="498" fill="none" stroke="rgba(201,149,42,0.2)"
+                    stroke-width="1" />
+                <rect x="8" y="8" width="1184" height="484" fill="none" stroke="rgba(201,149,42,0.1)"
+                    stroke-width="0.5" />
+
+                <!-- Corner ornaments -->
+                <text x="15" y="25" font-family="serif" font-size="10" fill="rgba(201,149,42,0.4)">✦</text>
+                <text x="1175" y="25" font-family="serif" font-size="10" fill="rgba(201,149,42,0.4)">✦</text>
+                <text x="15" y="492" font-family="serif" font-size="10" fill="rgba(201,149,42,0.4)">✦</text>
+                <text x="1175" y="492" font-family="serif" font-size="10" fill="rgba(201,149,42,0.4)">✦</text>
+
+                <!-- Title cartouche -->
+                <rect x="470" y="435" width="260" height="35" fill="rgba(26,21,16,0.85)" stroke="rgba(201,149,42,0.3)"
+                    stroke-width="1" />
+                <text x="600" y="449" text-anchor="middle" font-family="serif" font-size="8" fill="rgba(201,149,42,0.7)"
+                    letter-spacing="2">TABVLA · IMPERII · MMXXVI</text>
+                <text x="600" y="462" text-anchor="middle" font-family="serif" font-size="7" fill="rgba(201,149,42,0.4)"
+                    letter-spacing="1">HACKCLUB · LEGIONARIES</text>
+            </svg>
+
+            <div class="map-legend">
+                <div class="map-legend-item">
+                    <div class="legend-dot" style="background:#8B1A1A"></div> Claimed Territory
+                </div>
+                <div class="map-legend-item">
+                    <div class="legend-dot" style="background:#C9952A; animation: pulse 2s infinite;"></div> Active
+                    Campaign
+                </div>
+                <div class="map-legend-item">
+                    <div class="legend-dot"
+                        style="background:rgba(201,149,42,0.3); border: 1px solid rgba(201,149,42,0.5);"></div>
+                    Contested
+                </div>
+            </div>
+        </div>
+
+        <p class="map-caption">
+            ✦ This is a preview. The real map updates every time a submission is approved. ✦
+        </p>
+    </section>
+
+    <!-- EXAMPLE PROJECTS -->
+    <section class="projects-section" id="projects">
+        <p class="section-label">Exempla Romana</p>
+        <h2 class="section-title">What You Could Build</h2>
+        <p style="color: var(--ash); max-width: 560px; font-size: 1rem; margin-top: 8px;">
+            If a Roman engineer would recognize the problem, it qualifies. Here are some ideas to get the gears turning.
+        </p>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <p class="project-category">Mechanism</p>
+                <p class="project-name">Antikythera Simulator</p>
+                <p class="project-desc">An interactive reconstruction of the world's first analog computer — simulate
+                    planetary motion with gears and dials.</p>
+                <span class="gladiator-badge">⚔ 4–5 Gladiators</span>
+            </div>
+            <div class="project-card">
+                <p class="project-category">Cryptography</p>
+                <p class="project-name">Scytale Encoder</p>
+                <p class="project-desc">Implement the Spartan transposition cipher used to encrypt military messages by
+                    wrapping parchment around a rod.</p>
+                <span class="gladiator-badge">⚔ 1–2 Gladiators</span>
+            </div>
+            <div class="project-card">
+                <p class="project-category">Architecture</p>
+                <p class="project-name">Roman Arch Stress Viz</p>
+                <p class="project-desc">A real-time force diagram showing how a Roman arch distributes load — adjust the
+                    keystone and watch the forces shift.</p>
+                <span class="gladiator-badge">⚔ 3–4 Gladiators</span>
+            </div>
+            <div class="project-card">
+                <p class="project-category">Urban Planning</p>
+                <p class="project-name">Castrum Grid Generator</p>
+                <p class="project-desc">Generate a Roman military camp layout from parameters: number of cohorts,
+                    terrain type, water source location.</p>
+                <span class="gladiator-badge">⚔ 2–3 Gladiators</span>
+            </div>
+            <div class="project-card">
+                <p class="project-category">Water Engineering</p>
+                <p class="project-name">Aqueduct Flow Calculator</p>
+                <p class="project-desc">Model gravity-fed water flow through Roman aqueduct channels — account for
+                    grade, cross-section, and friction losses.</p>
+                <span class="gladiator-badge">⚔ 3–5 Gladiators</span>
+            </div>
+            <div class="project-card">
+                <p class="project-category">Ballistics</p>
+                <p class="project-name">Onager Trajectory Sim</p>
+                <p class="project-desc">A physics simulation of the Roman onager catapult — adjust torsion tension, arm
+                    length, and projectile mass.</p>
+                <span class="gladiator-badge">⚔ 2–4 Gladiators</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRIZES -->
+    <section class="prizes-section" id="prizes">
+        <p class="section-label">Dona Militaria</p>
+        <h2 class="section-title">Prizes & Rewards</h2>
+        <p style="color: var(--ash); max-width: 560px; font-size: 1rem; margin-top: 8px;">
+            Ancient-themed prizes for builders who ship. The more Gladiators you earn, the greater the spoils of war.
+        </p>
+
+        <table class="prizes-table">
+            <thead>
+                <tr>
+                    <th>Gladiators</th>
+                    <th>Tier</th>
+                    <th>Reward</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="prize-gladiators">1–2</span></td>
+                    <td><span class="prize-tier">Recruit</span></td>
+                    <td>Legionaries sticker pack shipped to your door</td>
+                </tr>
+                <tr>
+                    <td><span class="prize-gladiators">3–4</span></td>
+                    <td><span class="prize-tier">Legionary</span></td>
+                    <td>Roman-themed mechanical pencil set + wax seal stamp kit with your initials</td>
+                </tr>
+                <tr>
+                    <td><span class="prize-gladiators">5–9</span></td>
+                    <td><span class="prize-tier">Centurion</span></td>
+                    <td>Brass pocket compass + engineering field notebook + full sticker pack</td>
+                </tr>
+                <tr>
+                    <td><span class="prize-gladiators">10–19</span></td>
+                    <td><span class="prize-tier" style="color: var(--gold-light);">Architect</span></td>
+                    <td>Full drafting instrument set + leather-bound engineering notebook + exclusive Legionaries poster
+                        print</td>
+                </tr>
+                <tr>
+                    <td><span class="prize-gladiators">20+</span></td>
+                    <td><span class="prize-tier" style="color: var(--gold); font-size: 0.95rem;">⚜ Emperor</span></td>
+                    <td>Custom mechanical keyboard keycap set (Roman numerals) + full prize bundle + your name
+                        permanently etched on the map</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div style="margin-top: 40px; display: flex; gap: 2px; flex-wrap: wrap;">
+            <div style="background: var(--stone-mid); padding: 24px 28px; flex: 1; min-width: 200px;">
+                <p
+                    style="font-family: 'Cinzel', serif; font-size: 0.68rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; margin-bottom: 8px;">
+                    Largest Empire</p>
+                <p style="color: var(--ash); font-size: 0.88rem;">Special prize for the participant holding the most
+                    territory at campaign end.</p>
+            </div>
+            <div style="background: var(--stone-mid); padding: 24px 28px; flex: 1; min-width: 200px;">
+                <p
+                    style="font-family: 'Cinzel', serif; font-size: 0.68rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; margin-bottom: 8px;">
+                    Most Creative</p>
+                <p style="color: var(--ash); font-size: 0.88rem;">For the project that best reimagines antiquity in a
+                    completely unexpected way.</p>
+            </div>
+            <div style="background: var(--stone-mid); padding: 24px 28px; flex: 1; min-width: 200px;">
+                <p
+                    style="font-family: 'Cinzel', serif; font-size: 0.68rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; margin-bottom: 8px;">
+                    First Monument</p>
+                <p style="color: var(--ash); font-size: 0.88rem;">Special recognition and prize for the first person to
+                    unlock a Monument on the map.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MONUMENTS -->
+    <section class="monuments-section">
+        <p class="section-label">Monumenta Aeterna</p>
+        <h2 class="section-title">Earn a Monument</h2>
+        <p style="color: var(--ash); max-width: 500px; font-size: 1rem; margin-top: 8px; margin: 8px auto 0;">
+            Monuments are permanent map markers for exceptional work. They outlast conquests, outlast borders. They are
+            eternal.
+        </p>
+
+        <div class="monuments-row">
+            <div class="monument-card">
+                <span class="monument-icon">🏟</span>
+                <p class="monument-name">Colosseum</p>
+            </div>
+            <div class="monument-card">
+                <span class="monument-icon">🏛</span>
+                <p class="monument-name">Pantheon</p>
+            </div>
+            <div class="monument-card">
+                <span class="monument-icon">🌉</span>
+                <p class="monument-name">Aqueduct</p>
+            </div>
+            <div class="monument-card">
+                <span class="monument-icon">⛩</span>
+                <p class="monument-name">Forum</p>
+            </div>
+            <div class="monument-card">
+                <span class="monument-icon">🗼</span>
+                <p class="monument-name">Lighthouse</p>
+            </div>
+        </div>
+
+        <p style="margin-top: 32px; color: var(--ash); font-style: italic; font-size: 0.92rem;">
+            Unlock a Monument by earning 5 Gladiators in a single submission and being recognized by the review
+            committee.
+        </p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+        <p class="section-label">Quaestiones</p>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+
+        <div class="faq-grid">
+            <div class="faq-item">
+                <p class="faq-q">Do I need to know Latin or Roman history?</p>
+                <p class="faq-a">Not at all. You need curiosity and a willingness to connect modern building to old
+                    problems. A Roman aqueduct is just a gravity-fed pipeline — build your version of it.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">Can I work in a team?</p>
+                <p class="faq-a">Yes, teams of up to 3. Gladiators split equally between members (rounded down), with
+                    bonus units going to the shared territory pool. So a 5-Gladiator team of 3 gets 1 each + 2 to the
+                    pool.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">What tech stack can I use?</p>
+                <p class="faq-a">Anything. Web, hardware, embedded, physical builds, simulations. The only requirement
+                    is that it's functional, documented, and you can demonstrate it working.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">How are Gladiators scored?</p>
+                <p class="faq-a">Reviewers evaluate: functionality (does it work?), depth (did you go beyond
+                    surface-level?), connection to antiquity (is the ancient inspiration meaningful?), and documentation
+                    quality.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">What happens when territories collide?</p>
+                <p class="faq-a">The larger army wins. In a tie, the earlier submission keeps the tile. Losers don't
+                    lose their gladiators — only the contested tile changes hands.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">Is there a limit on submissions?</p>
+                <p class="faq-a">No hard limit. But reviewers will notice if you're farming shallow projects. Quality
+                    over quantity — one well-crafted submission beats five half-hearted ones every time.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">How long does the program run?</p>
+                <p class="faq-a">Through summer 2026. You can submit multiple projects throughout the campaign. The map
+                    is a living record of the whole summer.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">My idea is weird. Does it qualify?</p>
+                <p class="faq-a">Ask in the thread. The general rule: if a Roman engineer, architect, or general would
+                    recognize the underlying problem you're solving, you're probably good. Weird is encouraged.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <div
+        style="background: var(--stone-mid); border-top: 1px solid rgba(201,149,42,0.15); border-bottom: 1px solid rgba(201,149,42,0.15); padding: 80px 48px; text-align: center;">
+        <p
+            style="font-family: 'Cinzel', serif; font-size: 0.72rem; letter-spacing: 0.4em; color: var(--gold); text-transform: uppercase; margin-bottom: 16px;">
+            Alea Iacta Est</p>
+        <h2
+            style="font-family: 'Cinzel Decorative', serif; font-size: clamp(1.6rem, 3vw, 2.4rem); color: var(--white); margin-bottom: 16px;">
+            The Die Is Cast.</h2>
+        <p style="color: var(--ash); max-width: 480px; margin: 0 auto 40px; font-style: italic;">
+            Rome wasn't built in a day. But it was built by people who started.
+            Your empire begins with a single commit.
+        </p>
+        <a href="https://github.com/hackclub/legionaries" class="btn-primary"
+            style="font-size: 0.85rem; padding: 16px 48px;">
+            ⚔ Submit Your Project
+        </a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <p class="footer-logo">⚔ Legionaries</p>
+            <p class="footer-tagline">Build like they did. Ship like you mean it.</p>
+        </div>
+        <div style="text-align: center;">
+            <p
+                style="font-family: 'Cinzel', serif; font-size: 0.72rem; letter-spacing: 0.2em; color: var(--ash); text-transform: uppercase;">
+                A <a href="https://hackclub.com" style="color: var(--gold); text-decoration: none;">Hack Club</a> YSWS
+                Program</p>
+            <p style="font-size: 0.85rem; color: rgba(138,127,110,0.5); margin-top: 4px; font-style: italic;">Summer
+                2026</p>
+        </div>
+        <div>
+            <p class="footer-spqr">S · P · Q · R</p>
+            <p style="font-size: 0.8rem; color: rgba(138,127,110,0.4); font-style: italic; margin-top: 4px;">Senatus
+                Populusque Romanus</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
